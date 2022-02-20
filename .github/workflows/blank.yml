@@ -34,10 +34,10 @@ jobs:
           git config --global user.email "neeharika5samboji@gmail.com"
           git config --global user.name "SNeeharika"
           #git remote add origin https://github.com/SNeeharika/Newrepo.git
-          #git remote set-url origin
+          git remote set-url origin git@github.com:SNeeharika/Newrepo.git
           git remote -v
           git branch -a
           git checkout -b app origin/app
           git checkout master
-          git merge app
+          git merge origin/app
           git push origin master --force
