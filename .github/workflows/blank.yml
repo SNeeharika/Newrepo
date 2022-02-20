@@ -39,5 +39,5 @@ jobs:
           git branch -a
           git checkout -b app origin/app
           git checkout master
-          git merge origin/app
+          git merge app
           git push origin master --force
