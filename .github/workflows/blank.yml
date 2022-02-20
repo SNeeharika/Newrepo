@@ -33,7 +33,8 @@ jobs:
           cd Newrepo
           git config --global user.email "neeharika5samboji@gmail.com"
           git config --global user.name "SNeeharika"
-          git remote set-url origin https://github.com/SNeeharika/Newrepo.git
+          git remote add https://github.com/SNeeharika/Newrepo.git
+          git remote set-url origin
           git checkout -b app origin/app
           git checkout master
           git merge origin/app
